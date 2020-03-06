@@ -26,10 +26,10 @@ function addElementToBeginningOfArray(newArray, extraItem){
 
   addElementToBeginningOfArray ([1], "foo"); //testing for accuracy
 
-function destructivelyAddElementToBeginningOfArray (anotherArray, anyExtraItem){
-  anotherArray = [anyExtraItem, ...anotherArray];
-  console.log(anotherArray);
-  return anotherArray;
+function destructivelyAddElementToBeginningOfArray (addArray, element){
+  var array = addArray;
+  addArray = [element, ...array];
+  return addArray;
 }
 
 destructivelyAddElementToBeginningOfArray([1], "foo");
