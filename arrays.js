@@ -49,7 +49,10 @@ function destructivelyRemoveElementFromBeginningOfArray(sampleArray, element){
   return sampleArray;
 }
 
-
+function removeElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
+}
 
 
 
