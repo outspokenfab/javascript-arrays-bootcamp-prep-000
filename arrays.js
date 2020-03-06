@@ -39,5 +39,10 @@ function accessElementInArray(sampleArray, index){
 }
 
 
-
+function addElementToEndOfArray(addArray, element){
+  var array = addArray;
+  var array2 = [...array, element];
+  return array2;
+  
+}
 
