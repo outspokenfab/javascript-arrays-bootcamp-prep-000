@@ -45,3 +45,11 @@ function addElementToEndOfArray(addArray, element){
   return array2;
 }
 
+function destructivelyAddElementToEndOfArray(addArray, element){
+  var array = addArray;
+  addArray = [...array, element];
+  return addArray;
+}
+
+
+
