@@ -17,7 +17,7 @@ console.log(secondCityArray);
 */
 
 function addElementToBeginningOfArray(newArray, extraItem){
-  var array = newArray;
+  var array = newArray; // array = "newArray items";
   var array2 = [extraItem, ...array];
   console.log(array);
   console.log(array2);
@@ -35,7 +35,7 @@ function destructivelyAddElementToBeginningOfArray (anotherArray, anyExtraItem){
 destructivelyAddElementToBeginningOfArray([1], "foo");
 
 function accessElementInArray(sampleArray, index){
-  return sampleArray(index);
+  return sampleArray[index];
 }
 
 
