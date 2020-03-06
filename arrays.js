@@ -24,30 +24,30 @@ function addElementToBeginningOfArray(newArray, extraItem){
   return array2;
 }
 
-  addElementToBeginningOfArray ([1], "foo"); //testing for accuracy
-
-function destructivelyAddElementToBeginningOfArray (addArray, element){
-addArray.unshift(element);
-  return addArray;
-}
-
-destructivelyAddElementToBeginningOfArray([1], "foo");
-
-function accessElementInArray(sampleArray, index){
-  return sampleArray[index];
-}
-
-
 function addElementToEndOfArray(addArray, element){
   var array = addArray;
   var array2 = [...array, element];
   return array2;
 }
 
+function destructivelyAddElementToBeginningOfArray (addArray, element){
+addArray.unshift(element);
+  return addArray;
+}
+
 function destructivelyAddElementToEndOfArray(addArray, element){
   addArray.push(element);
   return addArray;
 }
+
+function accessElementInArray(sampleArray, index){
+  return sampleArray[index];
+}
+
+
+
+
+
 
 
 
