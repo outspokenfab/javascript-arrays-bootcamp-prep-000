@@ -27,9 +27,7 @@ function addElementToBeginningOfArray(newArray, extraItem){
   addElementToBeginningOfArray ([1], "foo"); //testing for accuracy
 
 function destructivelyAddElementToBeginningOfArray (addArray, element){
-  var array = addArray;
-  var array2 = [element, ...array];
-  addArray = array2;
+addArray.unshift(element);
   return addArray;
 }
 
