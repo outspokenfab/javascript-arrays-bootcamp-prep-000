@@ -44,7 +44,7 @@ function accessElementInArray(sampleArray, index){
   return sampleArray[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(sampleArray, index){
+function destructivelyRemoveElementFromBeginningOfArray(sampleArray, element){
   sampleArray.shift(element);
   return sampleArray;
 }
