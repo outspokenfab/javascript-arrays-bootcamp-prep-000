@@ -50,8 +50,8 @@ function destructivelyRemoveElementFromBeginningOfArray(sampleArray, element){
 }
 
 function removeElementFromBeginningOfArray(array){
-  array.shift();
-  return array;
+  array2 = array.shift();
+  return array2;
 }
 
 
