@@ -50,9 +50,8 @@ function destructivelyRemoveElementFromBeginningOfArray(sampleArray, element){
 }
 
 function removeElementFromBeginningOfArray(array){
- var arrayMod = array;
- arrayMod.slice(1);
-  return arrayMod;
+ array.slice(1);
+  return array;
 }
 
 
